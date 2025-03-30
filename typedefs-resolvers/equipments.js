@@ -11,12 +11,6 @@ const typeDefs = gql`
     count: Int
     new_or_used: NewOrUsed!
   }
-  type Software implements Tool {
-    id: ID!
-    used_by: Role!
-    developed_by: String!
-    description: String
-  }
   type EquipmentAdv {
     id: ID!
     used_by: String!
